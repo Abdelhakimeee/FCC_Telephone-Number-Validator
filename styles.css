@@ -1,20 +1,89 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-body {
-    background-color: gray;
-}
+/* body {
+} */
 .container {
     max-width: 600px;
     text-align: center;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 .phone{
-    background-color: white;
-    max-width: 400px;
+    background-color: rgb(228, 228, 228);
+    max-width: 300px;
+    height: 500px;
     margin: 50px auto;
+    
+    position: relative;
+    border-radius: 35px; 
+    border: 2px solid  rgb(164, 161, 161);
 }
+/*  phone-header  camera flash baffe */
+.phone-header {
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+}
+.camera {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    top: 8px;
+}
+.flash-baffe{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.flash {
+    background-color: black;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-right: 10px ;
+    margin-left: -20px;
+}
+.baffe {
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+}
+/* screen */
 .screen{
-    background-color: red;
+    background-color: rgb(255, 255, 255) ;
+    height: 70%;
+    margin: 10px 20px;
+    border-radius: 6px;
+
 }
+.div-label-input{
+    position: relative ;
+    top: 40px;
+}
+.btn-clear{
+    display: block;
+    margin: 10px 30px 0 auto ;
+    padding: 2px;
+    font-size: 9px;
+    border: none;
+}
+#input-number {
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px ;
+}
+ /* button */
+ .button {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px auto 0;
+    border: 1px solid black;
+
+ }

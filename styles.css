@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body {
-} */
+body {
+    background-color: gray;
+}
 .container {
     max-width: 600px;
     text-align: center;
@@ -14,7 +15,7 @@
     background-color: rgb(228, 228, 228);
     max-width: 300px;
     height: 500px;
-    margin: 50px auto;
+    margin: 20px auto;
     
     position: relative;
     border-radius: 35px; 
@@ -63,10 +64,10 @@
 }
 .div-label-input{
     position: relative ;
-    top: 40px;
+    top: 20px;
 }
 .btn-clear{
-    display: block;
+    display: none;
     margin: 10px 30px 0 auto ;
     padding: 2px;
     font-size: 9px;
@@ -76,6 +77,17 @@
     border-radius: 15px;
     margin-top: 15px;
     padding: 10px 15px ;
+}
+/* list of numbers */
+#container-numbers {
+    /* background-color: rgb(219, 125, 125); */
+    margin-top: 20px;
+    padding: 10px;
+    height: 240px;
+    width: 100%;
+    word-wrap: break-word;   
+    overflow: auto;
+
 }
  /* button */
  .button {
@@ -87,3 +99,22 @@
     border: 1px solid black;
 
  }
+
+ /* Validation Message */
+ .validation-message {
+    position: fixed;
+    left: 50%;    
+    top: 30%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+
+ }
+ .validation-message.success {
+    background-color: #4CAF50; 
+}
+ .validation-message.error {
+    color: red;
+}

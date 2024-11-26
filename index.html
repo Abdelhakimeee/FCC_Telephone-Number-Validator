@@ -2,8 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./styles.css">
         <title>Telephone Number Validator</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/phone-header.css">
+        <link rel="stylesheet" href="css/validation-message.css">
     </head>
     <body>
         <div class="container">
@@ -25,7 +29,7 @@
                         <input type="number" id="input-number" placeholder="...Add a phone number"/>
                         <button id="btnClear" class="btn-clear" >❌</button>
                     </div>
-                    <div id="container-numbers" style="background-color: rgb(42, 155, 199);">
+                    <div id="container-numbers"  >
                     </div>
                 </div>
 
@@ -36,8 +40,11 @@
 
         </div>
 
-
-        <script src="./script.js"></script>
+        <script src="js/validatePhoneNumber.js"></script>
+        <script src="js/addNumberToContainer.js"></script>
+        <script src="js/displyaNumbers.js"></script>
+        <script src="js/clearInput.js"></script>
+        <script src="js/script.js"></script>
     </body>
 
 

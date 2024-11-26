@@ -87,9 +87,8 @@ body {
     word-wrap: break-word;   
     overflow: auto;
 }
-#btnClearNumbers {
-    /* heeeeeeeeeeeeerrrrrrrrrrrrrrrrrrrrrrrnow */
-    /* display: none; */
+.clear-number-list {
+    margin-top: 5px;
     padding: 2px;
     border-radius: 3px;
     border: none;

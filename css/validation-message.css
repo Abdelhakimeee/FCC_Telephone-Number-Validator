@@ -1,0 +1,16 @@
+.validation-message {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.validation-message.success {
+    background-color: #4CAF50;
+}
+.validation-message.error {
+    color: red;
+}

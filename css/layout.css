@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+}
+.container {
+    max-width: 600px;
+    text-align: center;
+    margin: 30px auto;
+}
+.phone {
+    background-color: rgb(228, 228, 228);
+    max-width: 300px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 35px;
+    border: 2px solid rgb(164, 161, 161);
+}
+.screen {
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    margin: 10px 20px;
+    border-radius: 6px;
+}
+.div-label-input {
+    position: relative;
+    top: 20px;
+}
+#input-number {
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px 15px;
+}
+#container-numbers {
+    margin-top: 20px;
+    padding: 10px;
+    height: 240px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: auto;
+}
